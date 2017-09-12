@@ -1,0 +1,28 @@
+{
+  "name": "nomad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaEm/Nomad.git"
+  },
+  "author": "Emma Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmmaEm/Nomad/issues"
+  },
+  "homepage": "https://github.com/EmmaEm/Nomad#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "connect-pg-simple": "^4.2.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "nodemon": "^1.12.0",
+    "pg-promise": "^6.5.2"
+  }
+}
