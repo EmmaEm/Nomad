@@ -44,6 +44,12 @@ h1, h2, h3{
   flex-direction: column;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nomad {
   font-family: 'Poiret One', cursive;
   font-size: 4em;

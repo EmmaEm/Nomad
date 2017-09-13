@@ -4,4 +4,8 @@ router.get('/', (req, res) => {
   res.render('login')
 })
 
+router.get('/login', (req, res) => {
+  res.render('authentication/login')
+})
+
 module.exports = router
