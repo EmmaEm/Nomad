@@ -1,0 +1,36 @@
+<%- include partials/header.ejs %>
+
+<title>Nomad: Home</title>
+<%- include partials/header.ejs %>
+
+<img src="/great-wall.jpg" alt="Image of the Great Wall of China">
+
+<div class="row-sp-btwn">
+
+<div class="one-third">
+  <h2>Cities</h2>
+
+  <div class="album-list">
+    <% //albums.forEach(function(album) { %>
+      <div class="box">
+        <h5><a href="/albums/<%= // album.id %>">City</a></h5>
+      </div>
+    <% // }) %>
+
+    <div class="box">
+      <h5><a href="/albums/<%= // album.id %>">City</a></h5>
+    </div>
+
+    <div class="box">
+      <h5><a href="/albums/<%= // album.id %>">City</a></h5>
+    </div>
+
+  </div>
+</div>
+
+<div class="two-thirds">
+  <%- include partials/reviews.ejs %>
+</div>
+
+</div>
+<%- include partials/footer.ejs %>
