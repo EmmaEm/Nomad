@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: 'Lato', sans-serif;
+    background-color: rgb(46, 8, 2);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: rgb(255, 224, 139);
+  text-decoration: none;
+}
+
+textarea, input{
+  padding: .5em;
+  font-size: .75em;
+}
+
+button {
+  float: right;
+  background-color: rgb(145, 205, 183);
+  font-size: 1em;
+  padding: .5em;
+
+}
+
+h1, h2, h3{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(255, 224, 139);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.nomad {
+  font-family: 'Poiret One', cursive;
+  font-size: 4em;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgb(46, 8, 2);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
+  justify-content: space-around;
+  align-items: center;
+}
