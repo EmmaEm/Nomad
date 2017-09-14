@@ -12,7 +12,7 @@
     "db:drop": "dropdb nomad",
     "db:schema": "psql -d nomad < src/db/schema.sql",
     "db:seed": "psql -d nomad < src/db/seed-data.sql",
-    "load-session-store": "psql vinyl < node_modules/connect-pg-simple/table.sql"
+    "load-session-store": "psql nomad < node_modules/connect-pg-simple/table.sql"
   },
   "repository": {
     "type": "git",
